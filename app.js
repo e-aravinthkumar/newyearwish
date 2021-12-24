@@ -17,7 +17,7 @@ let wish = [
     "New Year, new start. May all your dreams come true in 2022.",
     "May all your wildest dreams manifest in 2022. You got this!",
     "Cheers to health, happiness, and prosperity in 2022.",
-    "Wishing you and yours a happy, healthy, nad abundant 2022."
+    "Wishing you and yours a happy, healthy, and abundant 2022."
 ];
 let quotes = wish[Math.floor(Math.random()*wish.length)];
 
