@@ -1,10 +1,3 @@
-
-let enter = document.querySelector("#enter");
-
-let nameprompt = document.querySelector("#nameprompt");
-let content = document.querySelector("#content");
-let instruction = document.querySelector("#instruction")
-let tamil = document.querySelector("#tamil_wish");
 let wish_cont = document.querySelector("#wish");
 let wish = [
     "Wishing You a Very Happy New Year.",
@@ -20,8 +13,5 @@ let wish = [
     "Wishing you and yours a happy, healthy, and abundant 2022."
 ];
 let quotes = wish[Math.floor(Math.random()*wish.length)];
-
-    
-    
-    wish_cont.innerHTML = quotes;
+wish_cont.innerHTML = quotes;
     
