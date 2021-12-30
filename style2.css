@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* tamil font */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* english font */
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 .tamil-font {
     font-family: 'Catamaran', sans-serif;
+}
+
+.english-font{
+    font-family: 'Pushster', cursive;
 }
 
 .background-color {

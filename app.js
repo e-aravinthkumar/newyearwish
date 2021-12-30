@@ -21,17 +21,7 @@ let wish = [
 ];
 let quotes = wish[Math.floor(Math.random()*wish.length)];
 
-enter.addEventListener('click', ()=>{
-    let name_container = document.querySelector("#name_container");
-    let inputname = document.querySelector("#inputname");
     
     
     wish_cont.innerHTML = quotes;
-    name_container.innerHTML = inputname.value;
-    nameprompt.classList.add("hidden");
-    instruction.classList.add("hidden");
-    content.classList.remove("hidden");
-    tamil.classList.remove("hidden");
     
-
-});
